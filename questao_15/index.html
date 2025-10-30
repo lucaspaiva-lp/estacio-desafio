@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Desafio 20</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+<body>
+    <h1>Enunciado do desafio 20</h1>
+    <h2>Formate um número de telefone para o padrão (XX) XXXX-XXXX.</h2>
+
+    <form> 
+        <label>Digite seu número de telefone</label>
+        <input type="text" id="telefone" oninput="formatarNumero(event)" onkeydown="deletar(event)" required>
+        <p id="aviso"></p>
+    </form>
+    
+    <script src='main.js'></script>
+</body>
+</html>
